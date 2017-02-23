@@ -7,8 +7,8 @@ var saladConfig = require('../packages/theme-default/salad.config.json');
 var utilsList = fs.readdirSync(path.resolve(__dirname, '../src/utils'));
 var pluginsList = fs.readdirSync(path.resolve(__dirname, '../src/plugins'));
 var mixinsList = fs.readdirSync(path.resolve(__dirname, '../src/mixins'));
-// var router = fs.readdirSync(path.resolve(__dirname, '../src/router'));
-// var transitionList = fs.readdirSync(path.resolve(__dirname, '../src/transitions'));
+var router = fs.readdirSync(path.resolve(__dirname, '../src/router'));
+var directivesList = fs.readdirSync(path.resolve(__dirname, '../src/directives'));
 var externals = {};
 
 Object.keys(Components).forEach(function(key) {
@@ -30,15 +30,15 @@ mixinsList.forEach(function(file) {
   externals[`sealui-m/src/mixins/${file}`] = `sealui-m/lib/mixins/${file}`;
 });
 
-// router.forEach(function(file) {
-//   file = path.basename(file, '.js');
-//   externals[`sealui-m/src/router/${file}`] = `sealui-m/lib/router/${file}`;
-// });
+router.forEach(function(file) {
+  file = path.basename(file, '.js');
+  externals[`sealui-m/src/router/${file}`] = `sealui-m/lib/router/${file}`;
+});
 
-// transitionList.forEach(function(file) {
-//   file = path.basename(file, '.js');
-//   externals[`sealui-m/src/transitions/${file}`] = `sealui-m/lib/transitions/${file}`;
-// });
+directivesList.forEach(function(file) {
+  file = path.basename(file, '.js');
+  externals[`sealui-m/src/directives/${file}`] = `sealui-m/lib/directives/${file}`;
+});
 
 externals = [Object.assign({
   vue: 'vue'

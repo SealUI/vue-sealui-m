@@ -19,6 +19,9 @@ import Flex from '../packages/flex';
 import FlexItem from '../packages/flex-item';
 import DevicePlugin from 'sealui-m/src/plugins/device';
 import TipsPlugin from 'sealui-m/src/plugins/tips';
+import TitlePlugin from 'sealui-m/src/plugins/title';
+import AjaxPlugin from 'sealui-m/src/plugins/ajax';
+import TitleDirectives from 'sealui-m/src/directives/title';
 const install = function(Vue) {
     /* istanbul ignore if */
   if (install.installed) return;
@@ -44,6 +47,9 @@ const install = function(Vue) {
 
   Vue.use(DevicePlugin);
   Vue.use(TipsPlugin);
+  Vue.use(TitlePlugin);
+  Vue.use(AjaxPlugin);
+  Vue.use(TitleDirectives);
 };
 
 /* istanbul ignore if */
