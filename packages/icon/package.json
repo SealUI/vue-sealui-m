@@ -1,0 +1,15 @@
+{
+    "name": "seal-icon",
+    "version": "0.0.1",
+    "description": "A icon component for Vue.js.",
+    "keywords": [
+        "SealUI",
+        "vue",
+        "component"
+    ],
+    "main": "./lib/index.js",
+    "repository": "https://github.com/SealUI/vue-sealui-m/tree/master/packages/icon",
+    "author": "SealUI",
+    "license": "MIT",
+    "dependencies": {}
+}

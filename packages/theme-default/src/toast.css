@@ -1,0 +1,41 @@
+@charset "UTF-8";
+@import "./common/var.css";
+@import './mixins/setOnepx';
+@import './mixins/text';
+
+@component-namespace sealui {
+    @b toast {
+        position: fixed;
+        z-index: 5000;
+        width: 7.6em;
+        min-height: 7.6em;
+        top: 50%;
+        left: 50%;
+        background: var(--toast-background-color);
+        text-align: center;
+        border-radius: .05rem;
+        color: #FFFFFF;
+        transform: translate(-50%, -50%);
+        overflow: hidden;
+        backface-visibility: hidden;
+
+        .sealui-icon_toast {
+            margin: .2rem 0 0;
+            display: block;
+            &:before {
+              color: #FFFFFF;
+              font-size:.5rem;
+            }
+
+            &.sealui-loading{
+              margin:.3rem auto 0;
+              width:.38rem;
+              height:.38rem;
+              vertical-align: baseline;
+            }
+        }
+        @e content{
+            margin: .15rem 0 .12rem;
+        }
+    }
+}

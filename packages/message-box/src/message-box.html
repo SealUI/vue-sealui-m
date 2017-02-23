@@ -1,0 +1,14 @@
+<div class="<%=className%>">
+    <div class="sealui-mask"></div>
+    <div class="sealui-message-box <% if(isAndroid){ %> sealui-skin_android <% } %>">
+        <% if(title){ %>
+        <div class="sealui-message-box__hd"><strong class="sealui-message-box__title"><%=title%></strong></div>
+        <% } %>
+        <div class="sealui-message-box__bd"><%=content%></div>
+        <div class="sealui-message-box__ft">
+            <% for(var i = 0; i < buttons.length; i++){ %>
+            <a href="javascript:;" class="sealui-message-box__btn sealui-message-box__btn_<%=buttons[i]['type']%>"><%=buttons[i]['label']%></a>
+            <% } %>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,151 @@
+:root{
+	/* Transition
+  -------------------------- */
+  --all-transition: all .3s cubic-bezier(.645,.045,.355,1);
+  --fade-transition: opacity 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  --fade-linear-transition: opacity 200ms linear;
+  --md-fade-transition: transform 300ms cubic-bezier(0.23, 1, 0.32, 1) 100ms, opacity 300ms cubic-bezier(0.23, 1, 0.32, 1) 100ms;
+  --border-transition-base: border-color .2s cubic-bezier(.645,.045,.355,1);
+  --color-transition-base: color .2s cubic-bezier(.645,.045,.355,1);
+  --base-font-family :-apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+  --base-background-color-active : rgba(0,0,0,.1);
+  --base-border-line-color:#d9d9d9;
+  /* Colors
+  -------------------------- */
+  --color-primary: #4078c0;
+
+  --color-success: #6cc644;
+  --color-warning: #ffbd17;
+  --color-danger: #e64340;
+  --color-info: #11c1f3;
+  --color-dark:#333333;
+
+  --color-secondary: color(var(--color-primary) s(99%) l(*0.9));
+  --color-white: #fff;
+  --color-dark-white: color(var(--color-white) blend(var(--color-primary) 2%));
+  --color-black: #000;
+
+  --color-base-black: color(var(--color-primary) h(+6) s(33%) l(18%));
+  --color-light-black: color(var(--color-base-black) h(+5) s(27%) l(27%));
+  --color-extra-light-black: color(var(--color-base-black) h(+2) s(19%) l(35%));
+
+  --color-base-silver: color(var(--color-base-black) h(+3) s(16%) l(58%));
+  --color-light-silver: color(var(--color-base-black) h(+3) s(23%) l(67%));
+  --color-extra-light-silver: color(var(--color-base-black) s(26%) l(80%));
+
+  --color-base-gray: color(var(--color-base-black) s(28%) l(86%));
+  --color-light-gray: color(var(--color-base-black) h(+10) s(33%) l(92%));
+  --color-extra-light-gray: color(var(--color-base-black) h(+6) s(33%) l(95%));
+
+  /* Border
+  -------------------------- */
+  --border-width-base: .02rem;
+  --border-style-base: solid;
+  --border-color-base: rgba(0,0,0,.2);
+  --border-color-hover: var(--color-base-silver);
+  --border-base: var(--border-width-base) var(--border-style-base) var(--border-color-base);
+  --border-radius-base: .04rem;
+  --border-radius-small: .02rem;
+  --border-radius-circle: 100%;
+  --border-radius-after-base: .08rem;
+
+  --border-line-color:#D5D5D6;
+  /* Disable base
+  -------------------------- */
+  --disabled-fill-base: var(--color-extra-light-gray);
+  --disabled-color-base: #bbb;
+  --disabled-border-base: var(--color-base-gray);
+
+   /* Button
+  -------------------------- */
+  --button-font-size: .16rem;
+  --button-border-radius: var(--border-radius-base);
+  --button-border-after-radius: var(--border-radius-after-base);
+  --button-padding-vertical: .14rem;
+  --button-padding-horizontal: .15rem;
+
+  --button-large-font-size: .18rem;
+  --button-large-padding-vertical: .16rem;
+  --button-large-padding-horizontal: .25rem;
+
+  --button-small-font-size: .14rem;
+  --button-small-padding-vertical: .11rem;
+  --button-small-padding-horizontal: .15rem;
+
+  --button-mini-font-size: .12rem;
+  --button-mini-padding-vertical: .08rem;
+  --button-mini-padding-horizontal: .1rem;
+
+  --button-default-color: #363636;
+  --button-default-fill: #fff;
+  --button-default-border: #dbdbdb;
+
+  --button-ghost-color: #666;
+  --button-ghost-fill: transparent;
+  --button-ghost-border: #666;
+
+  --button-disabled-color: rgba(0,0,0,.3);
+  --button-disabled-fill: #F7F7F7;
+  --button-disabled-border: rgba(0,0,0,.2);
+
+  --button-primary-border: var(--color-primary);
+  --button-primary-color: var(--color-white);
+  --button-primary-fill: var(--color-primary);
+
+  --button-success-border: var(--color-success);
+  --button-success-color: var(--color-white);
+  --button-success-fill: var(--color-success);
+
+  --button-warning-border: var(--color-warning);
+  --button-warning-color: var(--color-white);
+  --button-warning-fill: var(--color-warning);
+
+  --button-danger-border: var(--color-danger);
+  --button-danger-color: var(--color-white);
+  --button-danger-fill: var(--color-danger);
+
+  --button-dark-border: var(--color-dark);
+  --button-dark-color: var(--color-white);
+  --button-dark-fill: var(--color-dark);
+
+  --button-info-border: var(--color-info);
+  --button-info-color: var(--color-white);
+  --button-info-fill: var(--color-info);
+
+  --button-hover-tint-percent: 20%;
+  --button-active-shade-percent: 15%;
+
+ /* Toast
+  -------------------------- */
+ --toast-background-color:rgba(17,17,17,0.7);
+
+/* Dialog
+  -------------------------- */
+ --dialog-default-btn-color:#353535;
+
+/* Actionsheet
+  -------------------------- */
+  --actionsheet-background-color:#EFEFF4;
+  --actionsheet-border-line-color:var(--base-border-line-color);
+
+/* Cells
+  -------------------------- */
+  --cell-font-size : .17rem;
+  --cell-title-color:#999;
+  --cell-title-font-size : .14rem;
+  --cell-ft-color:#999;
+  --cell-ft-font-size:.14rem;
+  --cell-arrow-color:#c8c8cd;
+  --cell-arrow-size:6px;
+  --cell-border-line-color:var(--base-border-line-color);
+
+/* Panel
+  -------------------------- */
+  --panel-background-color:var(--color-white);
+  --panel-hb-title-color:#999999;
+  --panel-hb-title-font-size:.13rem;
+  --panel-title-color:#363636;
+  --panel-title-font-size:.17rem;
+  --panel-desc-color:var(--panel-hb-title-color);
+  --panel-info-color:#CECECE;
+}
