@@ -147,5 +147,19 @@
   --panel-title-color:#363636;
   --panel-title-font-size:.17rem;
   --panel-desc-color:var(--panel-hb-title-color);
+  --panel-desc-font-size:.14rem;
   --panel-info-color:#CECECE;
+
+/* Divider
+-------------------------- */
+
+  --divider-font-color : #999;
+
+/* Msg
+-------------------------- */
+  --msg-title-font-size:.2rem;
+  --msg-desc-font-size:.14rem;
+  --msg-desc-font-color:#999;
+  --msg-extra-font-size:.14rem;
+  --msg-extra-font-color:var(--msg-desc-font-color);
 }

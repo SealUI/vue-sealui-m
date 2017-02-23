@@ -17,6 +17,9 @@ import GridItem from '../packages/grid-item';
 import Panel from '../packages/panel';
 import Flex from '../packages/flex';
 import FlexItem from '../packages/flex-item';
+import Divider from '../packages/divider';
+import Msg from '../packages/msg';
+import Preview from '../packages/preview';
 import DevicePlugin from 'sealui-m/src/plugins/device';
 import TipsPlugin from 'sealui-m/src/plugins/tips';
 import TitlePlugin from 'sealui-m/src/plugins/title';
@@ -37,6 +40,9 @@ const install = function(Vue) {
   Vue.component(Panel.name, Panel);
   Vue.component(Flex.name, Flex);
   Vue.component(FlexItem.name, FlexItem);
+  Vue.component(Divider.name, Divider);
+  Vue.component(Msg.name, Msg);
+  Vue.component(Preview.name, Preview);
 
   Vue.$toast = Vue.prototype.$toast = Toast;
   Vue.$loading = Vue.prototype.$loading = Loading;
@@ -76,5 +82,8 @@ module.exports = {
   GridItem,
   Panel,
   Flex,
-  FlexItem
+  FlexItem,
+  Divider,
+  Msg,
+  Preview
 };

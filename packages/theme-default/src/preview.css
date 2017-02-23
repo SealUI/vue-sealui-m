@@ -1,0 +1,116 @@
+@charset "UTF-8";
+@import "./common/var.css";
+@import './mixins/setOnepx';
+@import './mixins/text';
+
+@component-namespace sealui {
+    @b preview {
+        position: relative;
+        background-color: #FFFFFF;
+
+        &:before{
+            @mixin setTopLine var(--base-border-line-color);
+        }
+        &:after{
+            @mixin setBottomLine var(--base-border-line-color);
+        }
+
+        @e hd{
+            position: relative;
+            padding: .1rem .15rem;
+            text-align: right;
+            line-height: 2.5em;
+            &:after{
+                @mixin setBottomLine var(--base-border-line-color);
+                left: .15rem;
+            }
+            & .sealui-preview__value{
+                font-style: normal;
+                font-size: 1.6em;
+            }
+        }
+        @e label{
+            float: left;
+            margin-right: 1em;
+            min-width: 4em;
+            color:#999;
+            text-align: justify;
+            text-align-last: justify;
+        }
+        @e value{
+            display: block;
+            overflow: hidden;
+            word-break: normal;
+            word-wrap: break-word;
+        }
+
+        @e bd{
+            padding: 10px 15px;
+            font-size: .9em;
+            text-align: right;
+            color: #999999;
+            line-height: 2;
+            & .sealui-preview__item{
+                padding:.025rem 0
+            }
+            & .sealui-preview__label{
+                font-size: .15rem
+            }
+            & .sealui-preview__value{
+                line-height: 1.5;
+                padding-top: .05rem;
+            }
+        }
+        @e ft{
+            position: relative;
+            line-height: 50px;
+            display: flex;
+            &:after {
+                @mixin setTopLine var(--base-border-line-color);
+            }
+        }
+        @e item{
+            overflow: hidden;
+        }
+        @e btn{
+            position: relative;
+            display: block;
+            flex: 1;
+            color: var(--color-primary);
+            text-align: center;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            button&{
+                background-color: transparent;
+                border: 0;
+                outline: 0;
+                line-height: inherit;
+                font-size: inherit;
+            }
+            &:active {
+                background-color: var(--base-background-color-active);
+            }
+            &:after {
+                @mixin setLeftLine var(--base-border-line-color);
+            }
+            &:first-child {
+                &:after {
+                    display: none;
+                }
+            }
+
+            &_default {
+                color: #666;
+            }
+            &_primary {
+                color: var(--color-primary);
+            }
+            &_success{
+                color:var(--color-success);
+            }
+            &_danger{
+                color:var(--color-danger);
+            }
+        }
+    }
+
+}

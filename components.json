@@ -15,5 +15,8 @@
   "grid-item": "./packages/grid-item/index.js",
   "panel": "./packages/panel/index.js",
   "flex": "./packages/flex/index.js",
-  "flex-item": "./packages/flex-item/index.js"
+  "flex-item": "./packages/flex-item/index.js",
+  "divider": "./packages/divider/index.js",
+  "msg": "./packages/msg/index.js",
+  "preview": "./packages/preview/index.js"
 }

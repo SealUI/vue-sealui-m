@@ -35,8 +35,8 @@
         }
         @e desc{
             color: var(--panel-desc-color);
-            font-size: .13rem;
-            line-height: 1.2;
+            font-size: var(--panel-desc-font-size);
+            line-height: 1.3;
             @mixin ellipsisLn 2;
         }
         @e info{
