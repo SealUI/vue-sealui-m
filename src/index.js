@@ -20,6 +20,7 @@ import FlexItem from '../packages/flex-item';
 import Divider from '../packages/divider';
 import Msg from '../packages/msg';
 import Preview from '../packages/preview';
+import Tag from '../packages/tag';
 import DevicePlugin from 'sealui-m/src/plugins/device';
 import TipsPlugin from 'sealui-m/src/plugins/tips';
 import TitlePlugin from 'sealui-m/src/plugins/title';
@@ -43,6 +44,7 @@ const install = function(Vue) {
   Vue.component(Divider.name, Divider);
   Vue.component(Msg.name, Msg);
   Vue.component(Preview.name, Preview);
+  Vue.component(Tag.name, Tag);
 
   Vue.$toast = Vue.prototype.$toast = Toast;
   Vue.$loading = Vue.prototype.$loading = Loading;
@@ -85,5 +87,6 @@ module.exports = {
   FlexItem,
   Divider,
   Msg,
-  Preview
+  Preview,
+  Tag
 };

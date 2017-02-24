@@ -162,4 +162,12 @@
   --msg-desc-font-color:#999;
   --msg-extra-font-size:.14rem;
   --msg-extra-font-color:var(--msg-desc-font-color);
+
+/* Tag
+-------------------------- */
+  --tag-border-radius:.03rem;
+
+  --tag-default-font-size:.12rem;
+  --tag-default-height:.24rem;
+  --tag-default-padding:.06rem 0.1rem;
 }
