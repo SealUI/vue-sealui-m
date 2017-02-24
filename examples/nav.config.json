@@ -1,0 +1,92 @@
+[
+  {
+    "groupName": "基础组件",
+    "list": [
+      {
+        "path": "/button",
+        "name": "Button",
+        "cnName": "按钮"
+      },
+      {
+        "path": "/icon",
+        "name": "Icon",
+        "cnName": "图标"
+      },
+      {
+        "path": "/spinner",
+        "name": "Spinner",
+        "cnName": "加载图"
+      },
+      {
+        "path": "/cell",
+        "name": "Cell",
+        "cnName": "列表"
+      },
+      {
+        "path": "/sticky",
+        "name": "Sticky",
+        "cnName": "吸顶"
+      },
+      {
+        "path": "/grid",
+        "name": "Grid",
+        "cnName": "宫格"
+      },
+      {
+        "path": "/panel",
+        "name": "Panel",
+        "cnName": "面板"
+      },
+      {
+        "path": "/flex",
+        "name": "Flex",
+        "cnName": "弹性布局"
+      },
+      {
+        "path": "/divider",
+        "name": "Divider",
+        "cnName": "分割线"
+      },
+      {
+        "path": "/msg",
+        "name": "Msg",
+        "cnName": "提示页"
+      },
+      {
+        "path": "/preview",
+        "name": "Preview",
+        "cnName": "表单预览"
+      },
+      {
+        "path": "/tag",
+        "name": "Tag",
+        "cnName": "标签"
+      }
+    ]
+  },
+  {
+    "groupName": "操作提示",
+    "list": [
+      {
+        "path": "/toast",
+        "name": "Toast",
+        "cnName": "轻提示"
+      },
+      {
+        "path": "/loading",
+        "name": "Loading",
+        "cnName": "加载提示"
+      },
+      {
+        "path": "/dialog",
+        "name": "MessageBox",
+        "cnName": "对话框"
+      },
+      {
+        "path": "/actionsheet",
+        "name": "ActionSheet",
+        "cnName": "动作面板"
+      }
+    ]
+  }
+]
