@@ -1,6 +1,6 @@
 {
   "name": "sealui-m",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Component Library for Vue.js.",
   "main": "lib/sealui.common.js",
   "private": false,
