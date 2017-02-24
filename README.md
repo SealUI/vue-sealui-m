@@ -14,12 +14,12 @@
 ![](https://ui.nmtree.com/sealui-qr.png?size=300)
 
 ## 技术栈
-vue2 + vue-rotuer2 + webpack + ES6/7 + less + flex + svg + postcss 
+vue2 + vue-rotuer2 + webpack + ES6/7 + less + flex + svg + postcss
 
 ## 项目运行
 ```
 克隆，或者直接下载
-git clone https://github.com/SealUI/vue-sealui-m.git  
+git clone https://github.com/SealUI/vue-sealui-m.git
 
 进入文件夹
 cd vue-sealui-m
@@ -57,13 +57,13 @@ npm run build
 - [x] Tag 组件 -- 完成
 - [x] Divider 组件 -- 完成
 - [ ] Tab 组件
-- [ ] TabBar 组件  
-- [ ] Article 组件 
-- [ ] Countdown 组件 
-- [ ] Countup 组件 
-- [ ] Radio 组件 
-- [ ] Checkbox 组件 
-- [ ] Timeline 组件 
+- [ ] TabBar 组件
+- [ ] Article 组件
+- [ ] Countdown 组件
+- [ ] Countup 组件
+- [ ] Radio 组件
+- [ ] Checkbox 组件
+- [ ] Timeline 组件
 - [ ] Swiper 组件
 - [ ] Step 组件
 
@@ -73,6 +73,7 @@ npm run build
 - [x] MessageBox 组件(Alert、Confirm) -- 完成
 - [x] ActionSheet 组件 -- 完成
 - [x] Msg 组件 -- 完成
+- [x] Toptips 组件 -- 完成
 
 ##### 表单组件
 - [ ] Input 组件

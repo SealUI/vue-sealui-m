@@ -104,7 +104,7 @@
 .sealui-toptips-bottom-fade-enter,
 .sealui-toptips-bottom-fade-leave-active {
 	opacity: 0;
-	transform: translate(0%, 0%);
+	transform: translate(0%, 100%);
 }
 
 .sealui-toast-fade-enter,

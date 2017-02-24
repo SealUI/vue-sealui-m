@@ -1,0 +1,53 @@
+@charset "UTF-8";
+@import "./common/var.css";
+@import './mixins/setOnepx';
+@import './mixins/text';
+
+@component-namespace sealui {
+    @b toptips {
+        transition: opacity 0.3s, transform .4s;
+        position: fixed;
+        padding:.1rem 0;
+        left:0.05rem;
+        right:0.05rem;
+        z-index:1000;
+        background-color:var(--toptips-default-background-color);
+        color:#fff;
+        text-align: center;
+        line-height: 1.2;
+        word-wrap: break-word;
+        word-break: break-all;
+
+        & i{
+            margin-right: .05rem;
+        }
+        @when warn{
+            background-color:var(--color-warning);
+        }
+        @when error{
+            background-color:var(--color-danger);
+        }
+        @when success{
+            background-color:var(--color-success);
+        }
+        @when info{
+            background-color:var(--color-info);
+        }
+
+        @when placetop{
+            top:0;
+            border-radius: 0 0 .03rem .03rem;
+            & > div{
+                border-radius: 0 0 .03rem .03rem;
+            }
+        }
+        @when placebottom {
+           bottom:0;
+           border-radius: .03rem .03rem 0 0 !important;
+
+           & > div{
+                border-radius: .03rem .03rem 0 0 !important;
+            }
+        }
+    }
+}

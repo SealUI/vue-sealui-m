@@ -60,7 +60,7 @@ ComponentNames.forEach(name => {
     package: name
   }));
 
-  if (componentName == 'Loading' || componentName == 'Toast' || componentName == 'Alert' || componentName == 'Confirm' || componentName == 'Actionsheet'){
+  if (componentName == 'Loading' || componentName == 'Toast' || componentName == 'Alert' || componentName == 'Confirm' || componentName == 'Actionsheet' || componentName == 'Toptips'){
     pluginTemplate.push(render(INSTALL_PLUGIN_TEMPLATE,{
         name: componentName,
         component: name

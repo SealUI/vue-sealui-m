@@ -7,12 +7,16 @@
             <seal-tag color="default" type="border" closable>default</seal-tag>
             <seal-tag color="default" type="dot">default</seal-tag>
             <seal-tag color="default" type="dot" closable>default</seal-tag>
-
         </div>
 
         <div class="page-tag__title">有颜色倾向</div>
         <div class="page-tag__group">
             <seal-tag :color="item" v-for="item in colorList">{{ item }}</seal-tag>
+        </div>
+
+         <div class="page-tag__title">圆角</div>
+        <div class="page-tag__group">
+            <seal-tag :color="item" rounded v-for="item in colorList">{{ item }}</seal-tag>
         </div>
 
         <div class="page-tag__title">Type为dot</div>

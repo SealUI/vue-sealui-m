@@ -21,6 +21,7 @@ import Divider from '../packages/divider';
 import Msg from '../packages/msg';
 import Preview from '../packages/preview';
 import Tag from '../packages/tag';
+import Toptips from '../packages/toptips';
 import DevicePlugin from 'sealui-m/src/plugins/device';
 import TipsPlugin from 'sealui-m/src/plugins/tips';
 import TitlePlugin from 'sealui-m/src/plugins/title';
@@ -45,12 +46,14 @@ const install = function(Vue) {
   Vue.component(Msg.name, Msg);
   Vue.component(Preview.name, Preview);
   Vue.component(Tag.name, Tag);
+  Vue.component(Toptips.name, Toptips);
 
   Vue.$toast = Vue.prototype.$toast = Toast;
   Vue.$loading = Vue.prototype.$loading = Loading;
   Vue.$alert = Vue.prototype.$alert = Alert;
   Vue.$confirm = Vue.prototype.$confirm = Confirm;
   Vue.$actionsheet = Vue.prototype.$actionsheet = Actionsheet;
+  Vue.$toptips = Vue.prototype.$toptips = Toptips;
   Vue.$msgbox = Vue.prototype.$msgbox = MessageBox;
 
   Vue.use(DevicePlugin);
@@ -66,7 +69,7 @@ if (typeof window !== 'undefined' && window.Vue) {
 };
 
 module.exports = {
-  version: '0.0.1',
+  version: '0.0.2',
   install,
   Button,
   Toast,
@@ -88,5 +91,6 @@ module.exports = {
   Divider,
   Msg,
   Preview,
-  Tag
+  Tag,
+  Toptips
 };

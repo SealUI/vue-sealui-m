@@ -86,6 +86,11 @@
         "path": "/actionsheet",
         "name": "ActionSheet",
         "cnName": "动作面板"
+      },
+      {
+        "path": "/toptips",
+        "name": "Toptips",
+        "cnName": "顶部提示"
       }
     ]
   }

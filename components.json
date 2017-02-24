@@ -19,5 +19,6 @@
   "divider": "./packages/divider/index.js",
   "msg": "./packages/msg/index.js",
   "preview": "./packages/preview/index.js",
-  "tag": "./packages/tag/index.js"
+  "tag": "./packages/tag/index.js",
+  "toptips": "./packages/toptips/index.js"
 }

@@ -23,6 +23,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: .2rem;
+    vertical-align: middle;
 }
 
 .sealui-icon-alert:before { content: "\f101"; }

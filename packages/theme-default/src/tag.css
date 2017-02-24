@@ -57,6 +57,12 @@
                 border:var(--border-base);
             }
         }
+        @when rounded{
+            border-radius: 290486px;
+            &:after{
+                border-radius: calc(290486px * 2);
+            }
+        }
         @e dot{
             display: inline-block;
             width: .12rem;
