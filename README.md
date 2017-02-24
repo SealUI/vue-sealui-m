@@ -87,7 +87,8 @@ npm run build
 #### 指令
 - [x] TitleDirectives 设置微信标题 -- 完成
 
-### LICENSE
+
+## LICENSE
 MIT
 
 
