@@ -88,6 +88,13 @@ npm run build
 #### 指令
 - [x] TitleDirectives 设置微信标题 -- 完成
 
+## 赞助
+
+如果你觉得SealUI对你的开发有帮助，不妨赞助我们一下，谢谢……
+
+<p align="center">
+  <img src="https://ui.nmtree.com/WechatIMG64.jpeg" width="320">
+</p>
 
 ## LICENSE
 MIT
