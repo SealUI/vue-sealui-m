@@ -121,8 +121,8 @@ npm run build
 
 如果你觉得SealU对你的开发有些帮助,你可以给我们买一杯咖啡
 <p align="left">
-  <img src="https://ui.nmtree.com/WechatIMG64.jpeg" width="320">
-  <img src="https://ui.nmtree.com/WechatIMG65.jpeg" width="320">
+  <img src="https://ui.nmtree.com/wepay.jpeg?v=1" width="320">
+  <img src="https://ui.nmtree.com/alipay.jpeg?v=1" width="312">
 </p>
 
 ## License
