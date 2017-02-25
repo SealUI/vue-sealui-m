@@ -1,3 +1,10 @@
+src/
+test/
+tmp/
+node_modules/
+build/
+examples/
+packages/
 ppveyor.yml
 .babelrc
 .editorconfig
@@ -6,13 +13,6 @@ ppveyor.yml
 lerna.json
 .travis.yml
 yarn.lock
-src/
-test/
-tmp/
-node_modules/
-build/
-examples/
-packages/
 Makefile
 .npmignore
 .nyc_output

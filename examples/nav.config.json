@@ -48,11 +48,6 @@
         "cnName": "分割线"
       },
       {
-        "path": "/msg",
-        "name": "Msg",
-        "cnName": "提示页"
-      },
-      {
         "path": "/preview",
         "name": "Preview",
         "cnName": "表单预览"
@@ -91,6 +86,11 @@
         "path": "/actionsheet",
         "name": "ActionSheet",
         "cnName": "动作面板"
+      },
+      {
+        "path": "/msg",
+        "name": "Msg",
+        "cnName": "提示页"
       },
       {
         "path": "/toptips",

@@ -3,6 +3,7 @@
   "version": "0.0.3",
   "description": "A Component Library for Vue.js.",
   "main": "lib/sealui.common.js",
+  "style": "lib/theme-default/index.css",
   "private": false,
   "files": [
     "lib",
@@ -31,13 +32,19 @@
   "keywords": [
     "sealui",
     "vue",
-    "components"
+    "components",
+    "vue-components",
+    "web-components",
+    "component",
+    "components",
+    "mobile ui",
+    "framework",
+    "frontend"
   ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/SealUI/vue-sealui-m/issues"
   },
-  "style": "lib/theme-default/index.css",
   "dependencies": {
     "array-from": "^2.1.1",
     "autosize": "^3.0.20",

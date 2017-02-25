@@ -2,7 +2,7 @@
   <img src="https://ui.nmtree.com/20392063.jpeg" width="200" style="border-radius:10px;">
 </p>
 
-# SealUI-M 
+# SealUI-M
 > A Vue.js 2.0 UI Toolkit for Mobile.
 
 
@@ -13,7 +13,6 @@
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/SealUI/vue-sealui-m/master/LICENSE)
 [![Github All Releases](https://img.shields.io/github/downloads/SealUI/vue-sealui-m/total.svg)](https://github.com/SealUI/vue-sealui-m)
 [![Github Releases](https://img.shields.io/github/downloads/SealUI/vue-sealui-m/latest/total.svg)](https://github.com/SealUI/vue-sealui-m)
-<br>
 
 [![Travis](https://img.shields.io/travis/sealui/vue-sealui-m.svg)]()
 [![Travis branch](https://img.shields.io/travis/SealUI/vue-sealui-m/master.svg)]()
@@ -22,6 +21,7 @@
 [![npm](https://img.shields.io/npm/dm/vue-sealui-m.svg)]()
 
 [![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000)](https://github.com/SealUI/donate)
+
 ## 效果演示
 
 [http://sealui-m.sealui.com](http://sealui-m.sealui.com) 地址（请用chrome手机模式预览）
@@ -105,10 +105,10 @@ npm run build
 - [x] Toptips     顶部提示
 
 ##### 表单组件
-- [ ] Input 
-- [ ] Number 
-- [ ] Switch 
-- [ ] Textarea 
+- [ ] Input
+- [ ] Number
+- [ ] Switch
+- [ ] Textarea
 
 #### 插件
 - [x] TitlePlugin 设置微信标题

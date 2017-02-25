@@ -10,5 +10,5 @@ read VERSION
 git add -A
 git commit -m "[build] $VERSION"
 
-git push sealui master
+git push origin master
 fi
