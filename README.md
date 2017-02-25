@@ -4,35 +4,23 @@
 
 # SealUI-M 
 > A Vue.js 2.0 UI Toolkit for Mobile.
-<br>
-<p align="center">
-<a href="https://github.com/SealUI/vue-sealui-m">
-  <img src="https://img.shields.io/github/stars/sealui/vue-sealui-m.svg?style=social&label=Star" alt="">
-</a>
-<a href="https://github.com/SealUI/vue-sealui-m">
-  <img src="https://img.shields.io/github/forks/sealui/vue-sealui-m.svg?style=social&label=Fork" alt="">
-</a>
-<a href="https://github.com/SealUI/vue-sealui-m">
-  <img src="https://img.shields.io/github/watchers/sealui/vue-sealui-m.svg?style=social&label=Watch" alt="">
-</a>
 
-<a href="https://github.com/SealUI/vue-sealui-m">
-  <img src="https://img.shields.io/github/followers/sealui.svg?style=social&label=Follow" alt="">
-</a>
+
+[![GitHub stars](https://img.shields.io/github/stars/SealUI/vue-sealui-m.svg)](https://github.com/SealUI/vue-sealui-m/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/SealUI/vue-sealui-m.svg)](https://github.com/SealUI/vue-sealui-m/network)
+[![GitHub watchers](https://img.shields.io/github/watchers/SealUI/vue-sealui-m.svg)](https://github.com/SealUI/vue-sealui-m)
+[![GitHub issues](https://img.shields.io/github/issues/SealUI/vue-sealui-m.svg)](https://github.com/SealUI/vue-sealui-m/issues)
+[![license](https://img.shields.io/github/license/SealUI/vue-sealui-m.svg)](https://github.com/SealUI/vue-sealui-m)
+[![Github All Releases](https://img.shields.io/github/downloads/SealUI/vue-sealui-m/total.svg)](https://github.com/SealUI/vue-sealui-m)
+[![Github Releases](https://img.shields.io/github/downloads/SealUI/vue-sealui-m/latest/total.svg)](https://github.com/SealUI/vue-sealui-m)
 <br>
-<a href="https://www.npmjs.com/package/vue-sealui-m">
-  <img src="https://img.shields.io/npm/l/vue-sealui-m.svg" alt="">
-</a>
-<a href="https://www.npmjs.com/package/vue-sealui-m">
-  <img src="https://img.shields.io/npm/v/vue-sealui-m.svg" alt="">
-</a>
-<a href="https://www.npmjs.com/package/vue-sealui-m">
-  <img src="https://img.shields.io/npm/dm/vue-sealui-m.svg" alt="">
-</a>
-<a href="https://www.npmjs.com/package/vue-sealui-m">
-  <img src="https://img.shields.io/npm/dt/vue-sealui-m.svg" alt="">
-</a>
-</p>
+
+[![Travis](https://img.shields.io/travis/sealui/vue-sealui-m.svg)]()
+[![Travis branch](https://img.shields.io/travis/SealUI/vue-sealui-m/master.svg)]()
+[![npm](https://img.shields.io/npm/l/vue-sealui-m.svg)]()
+[![npm](https://img.shields.io/npm/dt/vue-sealui-m.svg)]()
+[![npm](https://img.shields.io/npm/dm/vue-sealui-m.svg)]()
+
 
 ## 效果演示
 
