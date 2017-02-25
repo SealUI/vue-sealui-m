@@ -86,6 +86,7 @@ npm run build
 - [x] Tag      标签组件
 - [x] Divider  分割线
 - [x] Steps    步骤条
+- [x] Timeline 时间轴
 - [ ] Tab
 - [ ] TabBar
 - [ ] Article
@@ -93,7 +94,6 @@ npm run build
 - [ ] Countup
 - [ ] Radio
 - [ ] Checkbox
-- [ ] Timeline
 - [ ] Swiper
 
 ##### 操作提示
