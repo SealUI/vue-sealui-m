@@ -65,7 +65,7 @@ npm run build
 - [ ] Checkbox 组件
 - [ ] Timeline 组件
 - [ ] Swiper 组件
-- [ ] Step 组件
+- [x] Step 组件
 
 ##### 操作提示
 - [x] Toast 组件 -- 完成
