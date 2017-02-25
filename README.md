@@ -10,7 +10,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/SealUI/vue-sealui-m.svg)](https://github.com/SealUI/vue-sealui-m/network)
 [![GitHub watchers](https://img.shields.io/github/watchers/SealUI/vue-sealui-m.svg)](https://github.com/SealUI/vue-sealui-m)
 [![GitHub issues](https://img.shields.io/github/issues/SealUI/vue-sealui-m.svg)](https://github.com/SealUI/vue-sealui-m/issues)
-[![license](https://img.shields.io/github/license/SealUI/vue-sealui-m.svg)](https://github.com/SealUI/vue-sealui-m)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/SealUI/vue-sealui-m/master/LICENSE)
 [![Github All Releases](https://img.shields.io/github/downloads/SealUI/vue-sealui-m/total.svg)](https://github.com/SealUI/vue-sealui-m)
 [![Github Releases](https://img.shields.io/github/downloads/SealUI/vue-sealui-m/latest/total.svg)](https://github.com/SealUI/vue-sealui-m)
 <br>
