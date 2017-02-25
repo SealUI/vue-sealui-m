@@ -17,6 +17,13 @@
               <seal-icon type="ios-paper" slot="icon"></seal-icon>
           </seal-cell>
       </seal-group>
+
+      <div class="pager-footer__desc sealui-footer sealui-footer_fixed-bottom">
+        <img :src="logo">
+        {{ title }}<br>
+        <span>强力驱动</span>
+      </div>
+
   </section>
 </template>
 
@@ -58,7 +65,28 @@
       }
 
   }
+  .pager-footer__desc{
 
+    bottom:.15rem;
+    color:#ccc;
+    text-align: center;
+    left:0;
+    right:0;
+    margin-top:.15rem;
+    & img{
+        display: block;
+        width: .3rem;
+        height:.3rem;
+        margin:0 auto .15rem auto;
+        filter: grayscale(100%);
+        filter: gray;
+        opacity: .5;
+        border-radius: .03rem;
+    }
+    & span{
+        font-size: .12rem;
+    }
+  }
 </style>
 <script>
     let _version = require('../package.json').version;

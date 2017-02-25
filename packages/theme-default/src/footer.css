@@ -26,5 +26,14 @@
             padding: 0 .34em;
             font-size: .12rem;
         }
+
+    }
+}
+@media screen and (min-height: 485px){
+    .sealui-footer_fixed-bottom{
+        position: fixed;
+        bottom: .52em;
+        left: 0;
+        right: 0;
     }
 }

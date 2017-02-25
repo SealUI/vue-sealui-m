@@ -10,6 +10,7 @@
         <transition :name="transitionName">
             <router-view class="page child-view"></router-view>
         </transition>
+
     </div>
 </div>
 </template>

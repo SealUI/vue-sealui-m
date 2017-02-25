@@ -20,5 +20,7 @@
   "msg": "./packages/msg/index.js",
   "preview": "./packages/preview/index.js",
   "tag": "./packages/tag/index.js",
-  "toptips": "./packages/toptips/index.js"
+  "toptips": "./packages/toptips/index.js",
+  "step": "./packages/step/index.js",
+  "steps": "./packages/steps/index.js"
 }

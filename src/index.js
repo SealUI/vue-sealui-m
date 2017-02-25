@@ -22,6 +22,8 @@ import Msg from '../packages/msg';
 import Preview from '../packages/preview';
 import Tag from '../packages/tag';
 import Toptips from '../packages/toptips';
+import Step from '../packages/step';
+import Steps from '../packages/steps';
 import DevicePlugin from 'sealui-m/src/plugins/device';
 import TipsPlugin from 'sealui-m/src/plugins/tips';
 import TitlePlugin from 'sealui-m/src/plugins/title';
@@ -47,6 +49,8 @@ const install = function(Vue) {
   Vue.component(Preview.name, Preview);
   Vue.component(Tag.name, Tag);
   Vue.component(Toptips.name, Toptips);
+  Vue.component(Step.name, Step);
+  Vue.component(Steps.name, Steps);
 
   Vue.$toast = Vue.prototype.$toast = Toast;
   Vue.$loading = Vue.prototype.$loading = Loading;
@@ -69,7 +73,7 @@ if (typeof window !== 'undefined' && window.Vue) {
 };
 
 module.exports = {
-  version: '0.0.2',
+  version: '0.0.3',
   install,
   Button,
   Toast,
@@ -92,5 +96,7 @@ module.exports = {
   Msg,
   Preview,
   Tag,
-  Toptips
+  Toptips,
+  Step,
+  Steps
 };

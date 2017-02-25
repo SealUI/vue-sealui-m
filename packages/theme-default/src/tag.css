@@ -36,7 +36,7 @@
             color: #666;
             opacity: .66;
             position: relative;
-            top: .01rem;
+            top: 0rem;
             font-size: .1rem;
             z-index:100;
             &:before{

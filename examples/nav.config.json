@@ -61,6 +61,11 @@
         "path": "/tag",
         "name": "Tag",
         "cnName": "标签"
+      },
+      {
+        "path": "/steps",
+        "name": "Steps",
+        "cnName": "步骤条"
       }
     ]
   },

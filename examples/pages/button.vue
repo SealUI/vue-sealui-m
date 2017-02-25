@@ -1,35 +1,35 @@
 <template>
     <div class="page-button">
-        <div class="page-button__title">有颜色倾向</div>
+        <div class="page-button__title page-group__title">有颜色倾向</div>
         <div class="page-button__group">
             <seal-button :type="item" v-for="item in typeList" @click.native="click(item)">{{ item }}</seal-button>
         </div>
-        <div class="page-button__title">镂空按钮</div>
+        <div class="page-button__title page-group__title">镂空按钮</div>
         <div class="page-button__group">
             <seal-button :type="item" v-for="item in typeList" :plain="true">{{ item }}</seal-button>
         </div>
-        <div class="page-button__title">禁用状态</div>
+        <div class="page-button__title page-group__title">禁用状态</div>
         <div class="page-button__group">
             <seal-button :type="item" v-for="item in typeList" disabled="disabled">{{ item }}</seal-button>
         </div>
-        <div class="page-button__title">圆角按钮</div>
+        <div class="page-button__title page-group__title">圆角按钮</div>
         <div class="page-button__group">
             <seal-button  v-for="item in typeList" :type="item" :circle="true">{{ item }}</seal-button>
         </div>
-        <div class="page-button__title">图标按钮</div>
+        <div class="page-button__title page-group__title">图标按钮</div>
         <div class="page-button__group">
             <seal-button :icon="item.type" v-for="item in btnIconList">{{ item.name }}</seal-button>
         </div>
-        <div class="page-button__title">按钮尺寸</div>
+        <div class="page-button__title page-group__title">按钮尺寸</div>
         <div class="page-button__group">
             <seal-button :size="item" v-for="item in sizeList" type="success" style="width:auto;">{{ item }}</seal-button>
         </div>
-        <div class="page-button__title">块级按钮</div>
+        <div class="page-button__title page-group__title">块级按钮</div>
         <div class="page-button__group">
             <seal-button  v-for="item in typeList" :type="item" :block="true">{{ item }}</seal-button>
         </div>
 
-        <div class="page-button__title">按钮组</div>
+        <div class="page-button__title page-group__title">按钮组</div>
         <div class="page-button__group">
             <div class="sealui-button-group">
                 <seal-button type="primary">primary</seal-button>
@@ -95,43 +95,7 @@ export default {
     .page-button {
 
         & .page-button__title{
-            position: relative;
-            padding:0.15rem 0 .05rem .15rem;
-            font-size: .14rem;
-            color:#999;
-            &:before{
-                content: " ";
-                position: absolute;
-                left: 0;
-                top: 0;
-                right: 0;
-                height: 1px;
-                border-top: 1px solid #D9D9D9;
-                color: #D9D9D9;
-                -webkit-transform-origin: 0 100%;
-                transform-origin: 0 100%;
-                -webkit-transform: scaleY(0.5);
-                transform: scaleY(0.5);
-            }
-            &:after{
-                content: " ";
-                position: absolute;
-                left: 0;
-                bottom: 0;
-                right: 0;
-                height: 1px;
-                border-bottom: 1px solid #D9D9D9;
-                color: #D9D9D9;
-                -webkit-transform-origin: 0 100%;
-                transform-origin: 0 100%;
-                -webkit-transform: scaleY(0.5);
-                transform: scaleY(0.5);
-            }
-            &:first-child{
-                &:before{
-                    display: none;
-                }
-            }
+
         }
         & .page-button__group {
             padding: .15rem;
