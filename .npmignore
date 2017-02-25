@@ -1,3 +1,4 @@
+.DS_Store
 src/
 test/
 tmp/
@@ -5,15 +6,17 @@ node_modules/
 build/
 examples/
 packages/
+Makefile
+coverage
 ppveyor.yml
+*.log
+yarn.lock
+.git/
 .babelrc
 .editorconfig
 .eslintrc
 .gitignore
 lerna.json
 .travis.yml
-yarn.lock
-Makefile
 .npmignore
 .nyc_output
-coverage

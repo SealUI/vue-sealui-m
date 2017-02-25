@@ -22,5 +22,7 @@
   "tag": "./packages/tag/index.js",
   "toptips": "./packages/toptips/index.js",
   "step": "./packages/step/index.js",
-  "steps": "./packages/steps/index.js"
+  "steps": "./packages/steps/index.js",
+  "timeline": "./packages/timeline/index.js",
+  "timeline-item": "./packages/timeline-item/index.js"
 }

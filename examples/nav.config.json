@@ -61,6 +61,11 @@
         "path": "/steps",
         "name": "Steps",
         "cnName": "步骤条"
+      },
+      {
+        "path": "/timeline",
+        "name": "Timeline",
+        "cnName": "时间轴"
       }
     ]
   },
