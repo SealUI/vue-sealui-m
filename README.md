@@ -21,7 +21,7 @@
 [![npm](https://img.shields.io/npm/dt/vue-sealui-m.svg)]()
 [![npm](https://img.shields.io/npm/dm/vue-sealui-m.svg)]()
 
-
+[![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000)](https://github.com/SealUI/donate)
 ## 效果演示
 
 [http://sealui-m.sealui.com](http://sealui-m.sealui.com) 地址（请用chrome手机模式预览）
@@ -122,6 +122,7 @@ npm run build
 如果你觉得SealU对你的开发有些帮助,你可以给我们买一杯咖啡
 <p align="left">
   <img src="https://ui.nmtree.com/WechatIMG64.jpeg" width="320">
+  <img src="https://ui.nmtree.com/WechatIMG65.jpeg" width="320">
 </p>
 
 ## License
