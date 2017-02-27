@@ -66,6 +66,11 @@
         "path": "/timeline",
         "name": "Timeline",
         "cnName": "时间轴"
+      },
+      {
+        "path": "/tabs",
+        "name": "Tabs",
+        "cnName": "标签页"
       }
     ]
   },

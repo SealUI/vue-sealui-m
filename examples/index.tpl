@@ -7,9 +7,10 @@
   </head>
   <body ontouchstart>
     <div id="app"></div><% if (process.env.NODE_ENV === 'production') { %>
-        <script src="http://cdn.bootcss.com/vue/2.1.6/vue.min.js"></script>
-        <script src="http://cdn.bootcss.com/vue-router/2.0.3/vue-router.js"></script>
-        <script src="http://cdn.bootcss.com/fastclick/1.0.6/fastclick.js"></script>
+        <script src="//cdn.bootcss.com/babel-polyfill/6.23.0/polyfill.min.js"></script>
+        <script src="//cdn.bootcss.com/vue/2.1.10/vue.min.js"></script>
+        <script src="//cdn.bootcss.com/vue-router/2.0.3/vue-router.js"></script>
+        <script src="//cdn.bootcss.com/fastclick/1.0.6/fastclick.js"></script>
 <% } %>
   </body>
 </html>

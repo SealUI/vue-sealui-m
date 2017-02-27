@@ -26,6 +26,8 @@ import Step from '../packages/step';
 import Steps from '../packages/steps';
 import Timeline from '../packages/timeline';
 import TimelineItem from '../packages/timeline-item';
+import Tabs from '../packages/tabs';
+import TabItem from '../packages/tab-item';
 import DevicePlugin from 'sealui-m/src/plugins/device';
 import TipsPlugin from 'sealui-m/src/plugins/tips';
 import TitlePlugin from 'sealui-m/src/plugins/title';
@@ -55,6 +57,8 @@ const install = function(Vue) {
   Vue.component(Steps.name, Steps);
   Vue.component(Timeline.name, Timeline);
   Vue.component(TimelineItem.name, TimelineItem);
+  Vue.component(Tabs.name, Tabs);
+  Vue.component(TabItem.name, TabItem);
 
   Vue.$toast = Vue.prototype.$toast = Toast;
   Vue.$loading = Vue.prototype.$loading = Loading;
@@ -104,5 +108,7 @@ module.exports = {
   Step,
   Steps,
   Timeline,
-  TimelineItem
+  TimelineItem,
+  Tabs,
+  TabItem
 };

@@ -7,6 +7,7 @@
   --md-fade-transition: transform 300ms cubic-bezier(0.23, 1, 0.32, 1) 100ms, opacity 300ms cubic-bezier(0.23, 1, 0.32, 1) 100ms;
   --border-transition-base: border-color .2s cubic-bezier(.645,.045,.355,1);
   --color-transition-base: color .2s cubic-bezier(.645,.045,.355,1);
+
   --base-font-family :"Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
   --base-background-color-active : rgba(0,0,0,.1);
   --base-border-line-color:#d9d9d9;
@@ -174,4 +175,18 @@
 /* Tag
 -------------------------- */
   --toptips-default-background-color:rgba(0,0,0,.8);
+
+/* tab
+  --------------------------------*/
+  --tab-height:.44rem;
+  --tab-background-color : #fff;
+  --tab-font-size:.16rem;
+  --tab-text-default-color : #666;
+  --tab-text-active-color :var(--color-success);
+  --tab-text-disabled-color : #ddd;
+  --tab-bar-active-color : ;
+  --tab-ink-bar-height:.02rem;
+
+  --tab-easing-in-out: cubic-bezier(0.35, 0, 0.25, 1);
+  --tab-effect-duration: .3s;
 }

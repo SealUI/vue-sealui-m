@@ -32,7 +32,6 @@
   	top:0;
     & i{
         color:#666;
-        margin-top:.02rem
       }
   }
   .page__hd{

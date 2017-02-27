@@ -9,7 +9,6 @@
  font-style: normal;
 }
 
-.sealui-icon:before ,
 [class^="sealui-icon-"], [class*=" sealui-icon-"] {
     display: inline-block;
     font-family: "sealui-icons";
@@ -22,7 +21,6 @@
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-size: .2rem;
     vertical-align: middle;
 }
 

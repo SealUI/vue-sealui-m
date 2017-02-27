@@ -52,4 +52,3 @@ router.afterEach(route => {
 	}
 
 });
-
